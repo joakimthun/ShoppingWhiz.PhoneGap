@@ -312,6 +312,8 @@
     <Compile Include="lib\angular\i18n\angular-locale_zu.js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <Content Include="config.xml" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
