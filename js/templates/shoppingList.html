@@ -1,0 +1,30 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn btn-default btn-lg btn-add-item" ng-click="addList()">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="well total-well">
+                    <h4 class="item-store">{{lists.Total}} SEK</h4>
+                </div>
+            </li>
+            <li ng-repeat="list in lists" class="list-group-item">
+                <h4 class="item-store">{{list.Store}}</h4>
+                <div class="item-actions">
+                    <button type="button" class="btn btn-default item-delete" ng-click="deleteList(list)">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </button>
+                </div>
+                <div class="item-total-container">
+                    <span class="item-total label label-default">Total: {{list.Total}}</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

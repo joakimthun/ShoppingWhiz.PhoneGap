@@ -1,0 +1,65 @@
+﻿.main-container {
+    padding-top: 60px;
+}
+
+.item-store {
+    /*float: left;*/
+}
+
+.item-total {
+    position: relative;
+    bottom: 30px;
+    font-size: 120%;
+}
+
+.item-total-container {
+    float: right;
+    margin-right: 30px;
+}
+
+.item-actions {
+    position: relative;
+    float: right;
+    bottom: 43px;
+}
+
+.item-delete {
+
+}
+
+.btn-add-item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.new-item-row {
+    margin-bottom: 10px;
+}
+
+.new-item-input {
+}
+
+.input-group-addon {
+    line-height: 2;
+    min-width: 70px;
+}
+
+.form-control {
+    height: 55px;
+}
+
+.error-row {
+    margin-bottom: 10px;
+}
+
+.label-error {
+    font-size: 100%;
+}
+
+.total-well {
+    margin-top: 20px;
+}

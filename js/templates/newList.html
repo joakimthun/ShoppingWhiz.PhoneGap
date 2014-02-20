@@ -1,0 +1,28 @@
+﻿<div class="row new-item-row">
+    <div class="col-md-12">
+        <div class="input-group">
+            <span class="input-group-addon">Store: </span>
+            <input type="text" class="form-control new-item-input" placeholder="Store" ng-model="list.store">
+        </div>
+    </div>
+</div>
+<div class="row new-item-row">
+    <div class="col-md-12">
+        <div class="input-group">
+            <span class="input-group-addon">SEK: </span>
+            <input type="text" class="form-control new-item-input" placeholder="SEK" ng-model="list.total">
+        </div>
+    </div>
+</div>
+<div class="row error-row" ng-style="showError">
+    <div class="col-md-12">
+        <span class="label label-danger label-error">Something went wrong :(</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn btn-default btn-lg btn-add-item" ng-click="saveList()">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </div>
+</div>

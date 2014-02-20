@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>ShoppingWhiz.PhoneGap</Name>
+    <RootNamespace>ShoppingWhiz.PhoneGap</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a2921ba1-62a9-4064-9a10-3eb667d5338c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <NodejsPort>1337</NodejsPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="js\controllers\" />
+    <Folder Include="js\services\" />
+    <Folder Include="js\templates\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\angular\" />
+    <Folder Include="lib\angular\i18n\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="js\app.js" />
+    <Compile Include="js\controllers\accountController.js" />
+    <Compile Include="js\controllers\shoppingListController.js" />
+    <Compile Include="js\services\authenticationService.js" />
+    <Compile Include="js\services\shoppingListService.js" />
+    <Compile Include="js\services\urlHelper.js" />
+    <Compile Include="lib\angular\angular-animate.js" />
+    <Compile Include="lib\angular\angular-animate.min.js" />
+    <Compile Include="lib\angular\angular-cookies.js" />
+    <Compile Include="lib\angular\angular-cookies.min.js" />
+    <Compile Include="lib\angular\angular-loader.js" />
+    <Compile Include="lib\angular\angular-loader.min.js" />
+    <Compile Include="lib\angular\angular-resource.js" />
+    <Compile Include="lib\angular\angular-resource.min.js" />
+    <Compile Include="lib\angular\angular-route.js" />
+    <Compile Include="lib\angular\angular-route.min.js" />
+    <Compile Include="lib\angular\angular-sanitize.js" />
+    <Compile Include="lib\angular\angular-sanitize.min.js" />
+    <Compile Include="lib\angular\angular-scenario.js" />
+    <Compile Include="lib\angular\angular-touch.js" />
+    <Compile Include="lib\angular\angular-touch.min.js" />
+    <Compile Include="lib\angular\angular.js" />
+    <Compile Include="lib\angular\angular.min.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_af-na.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_af-za.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_af.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_am-et.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_am.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-001.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-ae.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-bh.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-dz.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-eg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-iq.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-jo.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-kw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-lb.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-ly.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-ma.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-om.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-qa.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-sa.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-sd.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-sy.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-tn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar-ye.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ar.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_bg-bg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_bg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_bn-bd.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_bn-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_bn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ca-ad.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ca-es.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ca.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_cs-cz.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_cs.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_da-dk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_da.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-at.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-be.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-ch.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-de.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-li.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de-lu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_de.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_el-cy.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_el-gr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_el.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-as.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-au.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-bb.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-be.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-bm.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-bw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-bz.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-ca.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-dsrt-us.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-dsrt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-fm.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-gb.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-gu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-gy.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-hk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-ie.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-iso.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-jm.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-mh.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-mp.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-mt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-mu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-na.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-nz.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-ph.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-pk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-pr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-pw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-sg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-tc.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-tt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-um.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-us.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-vg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-vi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-za.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en-zw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_en.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-419.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ar.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-bo.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-cl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-co.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-cr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-do.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ea.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ec.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-es.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-gq.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-gt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-hn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ic.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-mx.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ni.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-pa.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-pe.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-pr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-py.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-sv.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-us.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-uy.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es-ve.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_es.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_et-ee.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_et.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_eu-es.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_eu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fa-af.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fa-ir.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fa.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fi-fi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fil-ph.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fil.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-be.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-bf.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-bi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-bj.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-bl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ca.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-cd.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-cf.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-cg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ch.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ci.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-cm.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-dj.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-fr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ga.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-gf.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-gn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-gp.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-gq.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-km.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-lu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-mc.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-mf.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-mg.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ml.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-mq.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-ne.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-re.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr-yt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_fr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gl-es.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gsw-ch.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gsw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gu-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_gu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_he-il.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_he.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hi-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hr-hr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hu-hu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_hu.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_id-id.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_id.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_is-is.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_is.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_it-it.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_it-sm.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_it.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_iw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ja-jp.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ja.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_kn-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_kn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ko-kr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ko.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ln-cd.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ln.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_lt-lt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_lt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_lv-lv.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_lv.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ml-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ml.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_mr-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_mr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ms-my.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ms.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_mt-mt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_mt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_nl-cw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_nl-nl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_nl-sx.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_nl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_no.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_or-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_or.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_pl-pl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_pl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_pt-br.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_pt-pt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_pt.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ro-ro.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ro.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ru-ru.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ru.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sk-sk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sl-si.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sq-al.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sq.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sr-cyrl-rs.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sr-latn-rs.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sv-se.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sv.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sw-tz.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_sw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ta-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ta.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_te-in.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_te.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_th-th.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_th.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_tl.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_tr-tr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_tr.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_uk-ua.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_uk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ur-pk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_ur.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_vi-vn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_vi.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zh-cn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zh-hans-cn.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zh-hk.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zh-tw.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zh.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zu-za.js" />
+    <Compile Include="lib\angular\i18n\angular-locale_zu.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml" />
+    <Content Include="css\app.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="index.html" />
+    <Content Include="js\templates\login.html" />
+    <Content Include="js\templates\newList.html" />
+    <Content Include="js\templates\shoppingList.html" />
+    <Content Include="js\templates\signup.html" />
+    <Content Include="lib\angular\angular-animate.min.js.map" />
+    <Content Include="lib\angular\angular-cookies.min.js.map" />
+    <Content Include="lib\angular\angular-csp.css" />
+    <Content Include="lib\angular\angular-loader.min.js.map" />
+    <Content Include="lib\angular\angular-resource.min.js.map" />
+    <Content Include="lib\angular\angular-route.min.js.map" />
+    <Content Include="lib\angular\angular-sanitize.min.js.map" />
+    <Content Include="lib\angular\angular-touch.min.js.map" />
+    <Content Include="lib\angular\angular.min.js.gzip" />
+    <Content Include="lib\angular\angular.min.js.map" />
+    <Content Include="lib\angular\errors.json" />
+    <Content Include="lib\angular\version.json" />
+    <Content Include="lib\angular\version.txt" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
